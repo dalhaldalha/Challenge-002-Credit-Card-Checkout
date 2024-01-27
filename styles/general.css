@@ -1,0 +1,30 @@
+h1,
+h2,
+h3,
+h4 {
+  font-family: Alegreya Sans SC, Arial;
+}
+
+p {
+  font-family: Source Sans 3, Arial;
+}
+
+.navbar-color {
+  display: flex;
+  background-color: #252A34;
+  color: #EAEAEA;
+  padding: 1rem;
+  margin: 0rem;
+  justify-content: space-between;
+}
+
+.heading {
+  margin: 0rem;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-right: 2rem;
+}
