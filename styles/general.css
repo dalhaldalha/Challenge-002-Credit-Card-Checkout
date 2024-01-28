@@ -3,10 +3,12 @@ h2,
 h3,
 h4 {
   font-family: Alegreya Sans SC, Arial;
+  margin: 0rem;
 }
 
 p {
   font-family: Source Sans 3, Arial;
+  margin: 0rem;
 }
 
 .navbar-color {
