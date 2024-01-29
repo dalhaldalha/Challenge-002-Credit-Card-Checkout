@@ -33,13 +33,38 @@
 }
 
 .left-top {
-  background-color: #252A34;
+  flex-direction: column;
+  
   height: 50vh;
+  box-shadow: 0px 0px 1rem rgba(41, 41, 41, 0.356);
+}
+
+.btn-div {
+  background-color: #EAEAEA;
+  padding: 0.3rem;
+}
+
+.pay-btn {
+  color: #FF2E63;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: white;
+  box-shadow: 0px 0px 0.5rem rgba(41, 41, 41, 0.356);
+}
+
+.pay-btn2 {
+  border: none;
+  background-color: transparent;
+}
+
+.google-pay {
+  width: 1.5rem;
 }
 
 .left-bottom {
-  background-color: #FF2E63;
-  height: 50vh;
+  flex-direction: column;
+  box-shadow: 0px 0px 1rem rgba(41, 41, 41, 0.356);
 }
 
 
@@ -53,7 +78,6 @@
 
 .right-top {
   flex-direction: column;
-  height: 70vh;
   gap: 2rem;
   box-shadow: 0px 0px 1rem rgba(41, 41, 41, 0.356);
 
@@ -102,6 +126,5 @@ content {
 }
 
 .right-bottom {
-  height: 30vh;
   background-color: #FF2E63;
 }
