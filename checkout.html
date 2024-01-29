@@ -44,7 +44,8 @@
               <p class="margin content-text">ID: <span style="color: rgb(58, 57, 57); font-weight: 400;">7226634</span></p>
             </div>
             <div class="content content-3">
-              <h2>$199</h2>
+              <label for="product1">Product 1 Price: $</label>
+              <input type="number" id="product1" class="product-input" min="0" step="10" oninput="calculateTotal()"><br>
               <p>QTY: 01</p>
             </div>
           </div>
@@ -58,7 +59,7 @@
               <p class="margin content-text">ID: <span style="color: rgb(58, 57, 57); font-weight: 400;">80036634</span></p>
             </div>
             <div class="content content-3">
-              <h2>$60</h2>
+              <h2 id="price-2">$60</h2>
               <p>QTY: 02</p>
             </div>
           </div>
@@ -72,7 +73,7 @@
               <p class="margin content-text">ID: <span style="color: rgb(58, 57, 57); font-weight: 400;">9304534</span></p>
             </div>
             <div class="content content-3">
-              <h2>$299</h2>
+              <h2 id="price-3">$299</h2>
               <p>QTY: 01</p>
             </div>
           </div>
@@ -86,16 +87,18 @@
               <p class="margin content-text">ID: <span style="color: rgb(58, 57, 57); font-weight: 400;">7226634</span></p>
             </div>
             <div class="content content-3">
-              <h2>$299</h2>
+              <h2 id="price-4">$99</h2>
               <p>QTY: 01</p>
             </div>
           </div>
 
         </div>
         <div class="right-bottom">
-
+          <h2>Total Price:</h2>
+          <p id="total-price">Hi</p>
         </div>
       </div>
     </div>
+    <script src="script/checkout.js"></script>
   </body>
 </html>
