@@ -34,7 +34,7 @@
 
 .left-top {
   flex-direction: column;
-  
+  background-color: #FF2E63;
   height: 50vh;
   box-shadow: 0px 0px 1rem rgba(41, 41, 41, 0.356);
 }
@@ -65,6 +65,7 @@
 .left-bottom {
   flex-direction: column;
   box-shadow: 0px 0px 1rem rgba(41, 41, 41, 0.356);
+  background-color: #252A34;
 }
 
 
@@ -80,6 +81,7 @@
   flex-direction: column;
   gap: 2rem;
   box-shadow: 0px 0px 1rem rgba(41, 41, 41, 0.356);
+  background-color: #252A34;
 
 }
 
