@@ -1,8 +1,13 @@
+body {
+  background: rgb(37,42,52);
+  background: linear-gradient(180deg, rgba(37,42,52,1) 0%, rgba(8,217,214,1) 100%);
+}
+
 h1,
 h2,
 h3,
 h4 {
-  font-family: Alegreya Sans SC, Arial;
+  font-family: Montserrat, Arial;
   margin: 0rem;
 }
 
