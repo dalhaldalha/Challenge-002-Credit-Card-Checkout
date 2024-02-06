@@ -1,0 +1,43 @@
+/*------------------------------------------General------------------------------------------*/
+
+/*------------------------------------------Main Div------------------------------------------*/
+
+.main-div {
+  display: flex;
+  background-color: #EAEAEA;
+  height: 90vh;
+  margin: 2rem;
+  border-radius: 2rem;
+  padding: 2rem;
+}
+
+/*------------------------------------------Left Div------------------------------------------*/
+.left-div {
+  display: flex;
+  flex-direction: column;
+  border-radius: 2rem;
+  height: 100%;
+  width: 50%;
+  overflow: hidden;
+}
+
+.left-top {
+  display: flex;
+  height: 70vh;
+  width: 100%;
+  background-color: #252A34;
+  align-items: center;
+}
+
+.tablet-img {
+  height: 100%;
+}
+
+.left-bottom {
+  display: flex;
+  background-color: #FF2E63;
+  width: 100%;
+  height: max-content;
+}
+
+/*------------------------------------------Right Div------------------------------------------*/
